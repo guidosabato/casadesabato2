@@ -87,26 +87,21 @@
     </nav>
 
     <div class="email">
-
-
-
-    
-            <label for="emailAddress">Tu dirección de correo electrónico</label>
-            <input id="emailAddress" type="email" size="50" maxlength="50" required placeholder=""
-                pattern=".+@beststartupever\.com" title="" />
-        
-
-        
+        <form name="email" netlify>
+            <li class="casillaemail">
+            <label for="emailAddress">Su dirección de correo electrónico</label>
+            <input id="emailAddress" type="email"  cols="120" size="40" maxlength="40" required placeholder=""/>
+            </li>
+            <li>
             <label for="message">Escriba su solicitud, pregunta o comentario</label>
-            <textarea class="textarea" id="message" cols="50" rows="8" required placeholder=""></textarea>
-    
-        <input type="submit" value="Enviar" />
-
-        <h1>Nos comunicaremos a la brevedad</h1>
-
-
-
-        <div class="correo"> <img src="img/correo.jpg" alt=""></div>
+            <textarea class="textarea" id="message" cols="120" rows="8" required placeholder=""></textarea>
+            <button type="submit" value="Enviar">
+                </li> 
+                <li>
+            <h1>Nos comunicaremos a la brevedad</h1>
+            <div class="correo"> <img src="img/correo.jpg" alt=""></div>
+        </li>
+        </form>
     </div>
 </body>
 
