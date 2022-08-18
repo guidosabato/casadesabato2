@@ -37,9 +37,6 @@ body {
      #navegador, menu {
         display: none;
      }
-    
-
-
      .main-nav {
         position: fixed;
         top: 0;
