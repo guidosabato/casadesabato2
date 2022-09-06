@@ -108,7 +108,7 @@ body {
 
 }
 
-.reservar h1 {
+.reservar h2 {
     padding-top: 1vh;
     text-align: center;
     font-size: calc(13px + 1vw);
@@ -354,7 +354,7 @@ justify-content: center;
     justify-content: center;
 }
 
-.textoeventos h1 {
+.textoeventos h2 {
 
     font-size: calc(16px + 1vh);
 }
