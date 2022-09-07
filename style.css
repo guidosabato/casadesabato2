@@ -1,8 +1,5 @@
 @font-face {
-    src: url('../fonts/oswald-v49-latin-regular.eot');
-    /* IE9 Compat Modes */
-    src: local(''),
-        url('../fonts/oswald-v49-latin-regular.eot?#iefix') format('embedded-opentype'),
+    src: url('../fonts/oswald-v49-latin-regular.eot?#iefix') format('embedded-opentype'),
         /* IE6-IE8 */
         url('../fonts/oswald-v49-latin-regular.woff2') format('woff2'),
         /* Super Modern Browsers */
@@ -12,6 +9,8 @@
         /* Safari, Android, iOS */
         url('../fonts/oswald-v49-latin-regular.svg#Oswald') format('svg');
     /* Legacy iOS */
+
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -137,7 +136,8 @@ body {
         display: none;
       }
       
-      @media only and (min-width: 900px) {
+      @media all and (min-width: 900px) 
+      {
         .button-menu {
           display: none;
         }
