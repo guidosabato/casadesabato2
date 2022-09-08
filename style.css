@@ -235,7 +235,7 @@ body {
         justify-content: center;
     }
     .titulo{
-        margin-top: calc(30px + 4vw);
+        margin-top: calc(10px + 4vw);
 
     }
 
@@ -442,14 +442,16 @@ img.btn-whatsapp:hover {
 .titulo {
     display: flex;
     width: 100%;
-   
-
     justify-content: center;
-    font-size: calc(10px + 2vw);
+    font-size: calc(10px + 1vw);
     color: #ffffff;
-    background: #680c0c
+    background: #680c0c;
+    
 }
 
+.titulo h1 {
+    font-size: 10 + 1vw;
+}
 
 
 .contenedor-cabecera {
