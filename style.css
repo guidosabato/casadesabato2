@@ -656,10 +656,10 @@ img.btn-whatsapp:hover {
 }
 
 .paginafotos {
-    padding-top: 5vw;
+    color: aliceblue;
+    margin-top: 5vw;
     margin: 0 auto;
-    width: 90%;
-
+    width: 98%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -684,7 +684,7 @@ img.btn-whatsapp:hover {
 }
 
 .paginafotos IMG:hover {
-    transform: scale(1.5);
+    
     position: relative;
     transition: ALL 1s;
     z-index: 900000;
