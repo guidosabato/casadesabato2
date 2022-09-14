@@ -6,7 +6,18 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
+<url>
+  <!-- URL of the host page -->
+  <loc>https://casadesabato.com/</loc>
+  <!-- Information about video 1, like the title and URL for the video's media file -->
+  <video:video>
+    <video:title>La Casa Museo de Ernesto Sabato</video:title>
+    <video:content_loc>
+      https://casadesabato.com/casa de sabato.mp4</video:content_loc>
+  </video:video>
+  <!-- As many additional <video> entries as you need -->
+  <video></video>
+</url>
 <url>
   <loc>https://casadesabato.com/</loc>
   <lastmod>2022-09-07T14:06:12+00:00</lastmod>
