@@ -7,9 +7,11 @@
 
 
 <url>
-  <loc>https://casadesabato.com/</loc>
+  <loc>https://casadesabato.com./index.html/</loc>
     <video:video>
+    <video:thumbnail_loc>https://casadesabato.com/img/fachadacartel.jpg</video:thumbnail_loc>
     <video:title>La Casa Museo de Ernesto Sabato</video:title>
+    <video:description>Visitas guiadas a la Casa Museo Sabato</video:description>
     <video:content_loc>https://casadesabato.com/casa de sabato.mp4</video:content_loc>
   </video:video>
     <changefreq>weekly</changefreq>
