@@ -2,10 +2,9 @@
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-<
+   >
+
+
 
 <url>
   <loc>https://casadesabato.com/</loc>
@@ -21,31 +20,37 @@
   <loc>https://casadesabato.com/fotos.html</loc>
   <lastmod>2022-09-07T14:06:12+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://casadesabato.com/contacto.html</loc>
   <lastmod>2022-09-07T14:06:12+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://casadesabato.com/videos.html</loc>
   <lastmod>2022-09-07T14:06:12+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://casadesabato.com/360.html</loc>
   <lastmod>2022-09-07T14:06:12+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://casadesabato.com/eventos.html</loc>
   <lastmod>2022-09-07T14:06:12+00:00</lastmod>
   <priority>0.80</priority>
+  <changefreq>weekly</changefreq>
 </url>
 <url>
   <loc>https://casadesabato.com/index.html</loc>
   <lastmod>2022-09-07T14:06:12+00:00</lastmod>
   <priority>0.64</priority>
+  <changefreq>weekly</changefreq>
 </url>
 
 
