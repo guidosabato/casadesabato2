@@ -359,7 +359,58 @@ img.btn-whatsapp:hover {
     font-style: inherit;
 }
 
-.enail {
+.social {
+    position: fixed;
+    right: 0;
+    top: 15% ;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 3000;
+    list-style: none;
+
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+
+}
+.icon-instagram {
+    background-color: #3f729b;
+}
+.icon-facebook2 {background: #2e406e;
+
+}
+
+.icon-whatsapp {
+  background:   #25d366;
+
+}
+.icon:first-child{
+    border-radius:  1rem 0 0 0 ;
+
+}
+.icon:last-child{
+    border-radius:  0 0 0 1rem;
+
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+  }
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1 rem;
+    box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+
+}
+
+.email {
     margin-top: 50px;
 }
 }
@@ -451,6 +502,7 @@ img.btn-whatsapp:hover {
     flex-direction: row;
     width: 95%;
     justify-content: center;
+    list-style: none;
 }
 
 
