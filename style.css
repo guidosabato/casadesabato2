@@ -1,4 +1,6 @@
-
+:root {
+ --verde: #1f411c;
+}
 
 
 
@@ -15,9 +17,27 @@ body {
     font-style: normal;   
     color: aliceblue;
 }
+a {
+    text-decoration: none;
+}
+li  {
+    list-style: none;
+}
+
+p {
+
+}
+
+h1 {
+
+}
 
 h2 {
    font-size: calc(30px + 0.390625vw);
+}
+
+h3 {
+
 }
 
 /** FIN ESTILOS GLOBALES **/
@@ -59,7 +79,7 @@ h2 {
         font-weight: bold;
         position: relative;
         font-size: calc(10vw);
-        background-color: #1f411c;
+        background-color: var(--verde);
         color: aliceblue;
         text-decoration: none;
         border-radius: 10px;
@@ -215,7 +235,7 @@ h2 {
 
     .menu li>a {
         font-size: calc(10px + 2vw);
-        background-color: #1f411c;
+        background-color: var(--verde);
         color: aliceblue;
         text-decoration: none;
         border-radius: 10px;
@@ -383,10 +403,39 @@ img.btn-whatsapp:hover {
 }
 
 
+}
+
+
 .email {
-    margin-top: 50px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 75vw;
 }
+.formulario-email {
+
 }
+.campo {
+    margin: .5em 0;
+}
+.campo input,
+.campo textarea {
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.164);
+}
+
+.formulario-btn {
+    padding: 1em 1.6em;
+    width: 100%;
+    max-width: 250px;
+    color: black;
+    border-radius: 3px;
+
+}
+
+
 .email li{
     text-align: center;
     margin: 0 auto;
@@ -657,7 +706,9 @@ img.btn-whatsapp:hover {
     
 }
 
-
+.fotogaleria h2 {
+    text-transform: capitalize;
+}
 
 .fotogaleria img {
     border-radius: 10px;

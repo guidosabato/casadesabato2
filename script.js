@@ -24,3 +24,11 @@ navWrapper.addEventListener("click", e => {
     toggleButton.classList.remove("close");
   }
 });
+
+let imagenes = document.querySelectorAll('img') // Agarrar todas las imagenes con el tag img
+console.log(imagenes); // Mostrar por consola 
+
+imagenes.forEach((imagen) => { // Imagenes para cada imagen, dar atributo loading valor lazy 
+  console.log(imagen);
+  imagen.setAttribute("loading", "lazy")
+})
