@@ -477,7 +477,16 @@ img.btn-whatsapp:hover {
     font-size: 2vw +10px;
 }
 
+@media only screen and (max-width: 800px)
+    
+{
 .titulo {
+    margin-top: 40px;
+    }
+    }
+
+.titulo {
+    margin-top: ;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -667,17 +676,33 @@ img.btn-whatsapp:hover {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-around;
+    align-items: center;
+}
+
+.grid img {
+    max-width: 300px;
+    height: 100%;
 }
 .fotogaleria {
     margin-top: 4vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    width: 98%;
 }
 
 @media screen and (min-width: 800px)
 {
 .fotogaleria {
     max-width: 30%;
+}
+
+@media screen and (max-width: 800px)
+{
+.fotogaleria {
+    margin: 0  auto;
+    width: 100%;
 }
 }
 
@@ -689,9 +714,7 @@ img.btn-whatsapp:hover {
 
 .fotogaleria img {
     border-radius: 10px;
-    background-color: var(--verde);
-   
-    
+    background-color: var(--verde); 
 }
 
 .fotogaleria p {
@@ -706,9 +729,6 @@ img.btn-whatsapp:hover {
    align-items: center;
    justify-content: space-around;
 }
-
-
-
 .grid img:hover {
     
     transition: 1s;
@@ -717,7 +737,6 @@ img.btn-whatsapp:hover {
     -moz-box-shadow: 0px 0px 15px 0px rgba(7, 94, 84, 1);
     box-shadow: 0px 0px 15px 0px rgb(49, 248, 4);
     transition-duration: 1s;
-
 }
 
 .gridvideos li {
