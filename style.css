@@ -40,6 +40,7 @@ h2 {
         display: none;
      }
      .main-nav {
+        
         position: fixed;
         top: 0;
         left: 0;
@@ -65,7 +66,7 @@ h2 {
       }
       
       .link-item {
-        margin-top: 2rem;
+        margin-top: 4rem;
         color: #444444;
         text-decoration: none;
         font-weight: bold;
@@ -81,7 +82,7 @@ h2 {
         position: absolute;
         content: "";
         background-color: black;
-        bottom: -5px;
+        top: 0;
         left: 0;
         width: 0%;
         height: 3px;
@@ -103,7 +104,8 @@ h2 {
       
       .button-menu {
         position: absolute;
-        z-index: 200;
+        top: 0;
+        z-index: 60006;
         width: 40px;
         height: 40px;
         border: none;
@@ -397,6 +399,7 @@ img.btn-whatsapp:hover {
 }
 
 
+
 .email {
     margin: 50px auto 0 auto;
     display: flex;
@@ -435,7 +438,7 @@ img.btn-whatsapp:hover {
     width: 95%;
     color: aliceblue;
     list-style: none;
-    font-size: calc(5px + 2vw);
+    font-size: calc(10px + 2vw);
     border-radius: 10px;
 }
 
@@ -451,7 +454,7 @@ img.btn-whatsapp:hover {
     background-color: rgb(195, 207, 194);
     color: rgb(0);
     transition: all .3s;
-    border-radius: 30px !important;
+    border-radius: 10px !important;
     -webkit-box-shadow: 0px 0px 15px 0px rgb(191, 223, 219);
     -moz-box-shadow: 0px 0px 15px 0px rgb(210, 230, 228);
     box-shadow: 0px 0px 15px 0px rgb(35, 248, 7);
