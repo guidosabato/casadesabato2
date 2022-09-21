@@ -5,7 +5,7 @@
 
 
 *::before,
-*::after {
+*::after,* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -110,6 +110,7 @@ h3 {
     }
       
       .button-menu {
+        position: absolute;
         z-index: 200;
         width: 40px;
         height: 40px;
@@ -127,7 +128,7 @@ h3 {
         height: 4px;
         margin-bottom: 5px;
         position: relative;
-        background: #444444;
+        background: #ffffff;
         border-radius: 3px;
         transform-origin: 4px 0px;
         transition: all 0.2s linear;
@@ -222,15 +223,13 @@ h3 {
 
     .menu {
         position: relative;
-        margin-left: -30px;
         display: flex;
-        width: 99%;
-        height: calc(4vw+ 2px);
+        height: calc(4vw + 2px);
         background-color: #1e411a;
         text-decoration: none;
         list-style: none;
-        justify-content: center;
         justify-content: space-around;
+        align-items: center;
     }
 
     .menu li>a {
@@ -395,7 +394,7 @@ img.btn-whatsapp:hover {
     position: absolute;
 }
 
-.textomapa h1 {
+.textomapa p {
 
     font-size: calc(20px + 1vw);
     color: aliceblue;
@@ -450,45 +449,25 @@ img.btn-whatsapp:hover {
     border-radius: 10px;
 }
 
-.casillaemail {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
-.correo {
 
-    margin: 0 auto;
-    justify-self: center;
-   
-}
+
 .correo img {
     justify-self: center;
     width: 50%;
     border-radius: 10px;
 }
-.email input:hover {
+.email input:hover, .formulario-btn:hover, .email textarea:hover {
     background-color: rgb(195, 207, 194);
     color: rgb(0);
     transition: all .3s;
-    border-radius: 100px !important;
+    border-radius: 30px !important;
     -webkit-box-shadow: 0px 0px 15px 0px rgb(191, 223, 219);
     -moz-box-shadow: 0px 0px 15px 0px rgb(210, 230, 228);
     box-shadow: 0px 0px 15px 0px rgb(35, 248, 7);
 }
 
 
-.email textarea:hover {
-    background-color: rgb(195, 207, 194);
-    color: rgb(8, 8, 8);
-    font-size: 3v;
-    transition: all .3s;
-    -webkit-box-shadow: 0px 0px 15px 0px rgb(191, 223, 219);
-    -moz-box-shadow: 0px 0px 15px 0px rgb(210, 230, 228);
-    box-shadow: 0px 0px 15px 0px rgb(35, 248, 7);
-
-}
 
 
 
@@ -674,11 +653,8 @@ img.btn-whatsapp:hover {
 
 /** MEDIA **/
 .video-responsive {
-
-
     display: flex;
     padding-top: 15px;
-
     justify-content: center;
 
 }
@@ -693,7 +669,6 @@ img.btn-whatsapp:hover {
 }
 .grid {
     display: flex;
-    flex-direction: column;
     margin: 0 auto;
     width: 98%;
     margin-top: 4vw;
@@ -703,9 +678,7 @@ img.btn-whatsapp:hover {
 }
 
 .fotogaleria {
-    margin-top: 4vw ;
-    
-    
+    margin-top: 4vw ;   
 }
 
 .fotogaleria h2 {
@@ -718,6 +691,12 @@ img.btn-whatsapp:hover {
     width: 100%;
     
 }
+
+.fotogaleria p {
+    font-size: 1.5rem;
+}
+
+
 
 .grid img:hover {
     
@@ -774,33 +753,30 @@ img.btn-whatsapp:hover {
 
 }
 
-
 .paginafotos {
     color: aliceblue;
-    margin-top: 5vw;
-    margin: 0 auto;
+    margin-top: 5vw;    
     width: 98%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
     justify-content: space-around;
-    list-style: none;
     max-height: fit-content;
-
-
 }
 
+@media all and (min-width: 1000px) 
+{
+    
 
-
+.paginafotos li {
+    max-width: 35%;
+}
+}
 .paginafotos img {
     padding: 2px;
     background-color: #0d3d0b;
     width: 100%;
     height: auto;
     border-radius: 10px;
-
-
 }
 
 .recorrido360 {
@@ -835,14 +811,8 @@ img.btn-whatsapp:hover {
 
 
 .textoeventos {
-    margin: 0 auto;
+    margin-top: 5vw;
     display: flex;
     justify-content: center;
-    width: 80%;
     text-align: center;
-    margin-top: 4vw;
-    font: 2vw sans-serif;
-    color: aliceblue;
-    background-color: #0c3414;
-
 }
