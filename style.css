@@ -664,22 +664,31 @@ img.btn-whatsapp:hover {
     width: 95%;
 }
 .textoeventos h2 {
-
     font-size: calc(16px + 1vh);
 }
-.grid {
+.grid {  
+    margin-top: 4vw;  
     display: flex;
-    margin: 0 auto;
     width: 98%;
+    color: aliceblue;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+}
+.fotogaleria {
     margin-top: 4vw;
-    justify-content: center;
-    list-style: none;
-    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
 }
 
+@media screen and (min-width: 800px)
+{
 .fotogaleria {
-    margin-top: 4vw ;   
+    max-width: 30%;
 }
+}
+
+
 
 .fotogaleria h2 {
     text-transform: capitalize;
@@ -687,13 +696,22 @@ img.btn-whatsapp:hover {
 
 .fotogaleria img {
     border-radius: 10px;
-    background-color: #0c3414;
-    width: 100%;
+    background-color: var(--verde);
+   
     
 }
 
 .fotogaleria p {
     font-size: 1.5rem;
+}
+
+.footer__text {
+    margin-top: 4vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-around;
 }
 
 
