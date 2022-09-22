@@ -512,9 +512,10 @@ img.btn-whatsapp:hover {
 
 
 
-.contenedor-cabecera li img {
+.contenedor-cabecera  img {
     margin: auto 0;
     width: 100%;
+    height: auto;
     border-radius: 50px;
 }
 
@@ -542,6 +543,10 @@ img.btn-whatsapp:hover {
     width: 300%;
     animation: movimiento 6s infinite;
     animation-direction: alternate;
+}
+.foto-cabecera {
+    width: 100%;
+    height: auto;
 }
 
 .slide-fotos li {
@@ -690,6 +695,12 @@ img.btn-whatsapp:hover {
     align-items: center;
     flex-direction: column;
     width: 98%;
+}
+
+.fotogaleria img {
+    width: 100%;
+    height: auto;
+
 }
 
 @media screen and (min-width: 800px)
