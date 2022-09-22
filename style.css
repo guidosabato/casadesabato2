@@ -322,6 +322,8 @@ img {
 
 img.btn-whatsapp {
     width: 100%;
+    max-width: 100%;
+    height: auto;
     cursor: pointer;
     border-radius: 20vw;
 }
@@ -346,6 +348,7 @@ img.btn-whatsapp:hover {
 }
 
 .telefono img {
+    max-width: 100%;
     border-radius: 10px;
 }
 
@@ -450,6 +453,8 @@ img.btn-whatsapp:hover {
 
 .correo img {
     justify-self: center;
+    max-width: 100%;
+    height: auto;
     width: 50%;
     border-radius: 10px;
 }
@@ -516,7 +521,7 @@ img.btn-whatsapp:hover {
 
 .contenedor-cabecera  img {
     margin: auto 0;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 50px;
 }
@@ -547,7 +552,8 @@ img.btn-whatsapp:hover {
     animation-direction: alternate;
 }
 .foto-cabecera {
-    width: 100%;
+    
+    max-width: 100%;
     height: auto;
 }
 
@@ -700,7 +706,7 @@ img.btn-whatsapp:hover {
 }
 
 .fotogaleria img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
 
 }
@@ -820,7 +826,7 @@ img.btn-whatsapp:hover {
 .paginafotos img {
     padding: 2px;
     background-color: #0d3d0b;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     border-radius: 10px;
 }
