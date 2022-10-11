@@ -52,11 +52,9 @@ img {
         display: none;
      }
      .main-nav {
-        
         position: fixed;
         top: 0;
         left: 0;
-        
         width: 100%;
         margin-left: -100%;
         transition: all 0.2s linear;
@@ -532,7 +530,7 @@ img.btn-whatsapp:hover {
 
 
 
-.contenedor-cabecera  img {
+.contenedor-cabecera li img {
     margin: auto 0;
     max-width: 100%;
     height: auto;
