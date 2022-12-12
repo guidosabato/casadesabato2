@@ -115,11 +115,12 @@
 
 
         <form name="contact" method="post" class="formulario-email" target="_blank" action="exito.html" data-netlify="true">
-
+            <input type="hidden" name="subject" 
+            value="Sales inquiry from mysitename.netlify.app" />
 
             <div class="campo">
                 <label for="emailAddress">Tu dirección de correo electrónico</label>
-                <input id="emailAddress" type="email" size="50" maxlength="50"/>
+                <input id="emailAddress" type="email" name="email" size="50" maxlength="50"/>
             </div>
 
 
@@ -130,6 +131,7 @@
             </div>
 
             <button type="submit" value="Enviar"  class="formulario-btn">Enviar</button>
+            <input type="hidden" name="form-name" value="contact">
         </form>
         <h3>Nos comunicaremos a la brevedad</h3>
 
